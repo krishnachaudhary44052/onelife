@@ -1,0 +1,63 @@
+.contactSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 180px 180px;
+  font-family: 'Georgia', serif;
+}
+
+.contactColumn {
+  width: 50%;
+}
+
+.contactTitle {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #2a2a2a;
+}
+
+.contactText {
+  font-size: 20px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.contactLink {
+  font-size: 20px;
+  color: #2c8b6b;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contactPhone a {
+  font-size: 22px;
+  color: #1f1f1f;
+  text-decoration: underline;
+}
+
+.contactTiming {
+  margin: 5px 0 20px 0;
+  font-size: 17px;
+  color: #4f9d7c;
+}
+
+.contactEmail a {
+  font-size: 20px;
+  color: #000;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 900px) {
+  .contactSection {
+    flex-direction: column;
+    padding: 50px 30px;
+  }
+
+  .contactColumn {
+    width: 100%;
+  }
+}

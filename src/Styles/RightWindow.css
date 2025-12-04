@@ -1,0 +1,47 @@
+.right-window-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 10px 60px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.right-window-container.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.right-window-image img {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 12px;
+  object-fit: cover;
+  border-radius: 45%;
+}
+
+.right-window-content h1 {
+  color: rgb(92, 27, 27);
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
+.right-window-content p {
+  color: rgb(63, 93, 57);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .right-window-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .right-window-image img {
+    max-width: 100%;
+  }
+}
