@@ -46,25 +46,39 @@ const SaladHeroSection = ({ visual }) => {
             <h3 className="salad-about-title">Every Movement Begins With a Moment</h3>
             <p className="salad-about-text">
 
-              During months of research, interactions, and field visits, our team met elders across different cities and living situations. We observed something universal — despite having homes, families, and basic comfort, many elders carried a silent emotional burden. 
+              After hundreds of conversations, we understood something deeply important: 
+
+Elders do not fear aging. 
+They fear aging alone. 
+
+TuHiTu Onelife Circle was created to ensure they never have to. 
+
+We designed a structured community program  supported by trained volunteers, wellness experts, and emotional care specialists  that brings companionship back into the lives of seniors who have lost it. 
+
+Our movement began with their stories. 
+It continues with our responsibility to honor them. 
+
+And it grows every day through every volunteer who chooses to sit, listen, and bring life back into someone’s ordinary day. 
 
             </p>
             <p className="salad-about-text">
 
-              Their homes were full of memories, 
-but their days were empty of companionship. 
+              We realized elders didn’t need more services. 
+They needed more humans. 
 
+Not caretakers. 
+Not attendants. 
+Not medical staff. 
             </p>
+            <ul>
+              <li>They needed Companions. Individuals who could: </li>
+        <li>Spend time without rushing </li>
+        <li>Listen without distraction </li>
+        <li>Offer presence without judgment  </li>
+        <li>Rebuild confidence and dignity through simple human interactions </li>
+      </ul>
             <p className="salad-about-text">
-
-              Some shared that their children were busy with work and life commitments. Others said they hesitated to call because they didn’t want to disturb anyone. Many described spending entire days without hearing their own name spoken aloud. 
-
-            </p>
-            <p className="salad-about-text">
-              In old-age homes, we saw elders who once led vibrant lives now living behind quiet walls. They carried the weight of abandonment, the ache of being forgotten, and the fear of becoming a burden. 
-
-These experiences were not isolated. 
-They repeated from home to home, person to person, story to story. 
+             The TuHiTu Companion (Volunteer) Pillar became the backbone of our movement the very heart of TuHiTu Onelife Circle. 
             </p>
             {btnVisible && (
               <Link to="/about">

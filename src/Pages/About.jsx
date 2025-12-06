@@ -79,24 +79,65 @@ export default function About() {
       </section> */}
 
       <section className="team-section fade-up">
-        <div className="team-grid">
-          <img src="/Images/unnamed (11).png" className="team-photo" alt="team" />
+  <div className="team-grid">
+    <img
+      src="/Images/unnamed (11).png"
+      className="team-photo"
+      alt="team"
+    />
 
-          <div className="team-content">
-            <h2>HOW THE MOVEMENT WAS BORN</h2>
-            <p>
-              The idea of Tuhitu One Life Circle did not emerge in an office, on a whiteboard, or during a planning meeting. It emerged in the quiet corners of old-age homes, in the pauses between conversations with elders, and in the unspoken stories hidden behind their smiles. 
+    <div className="team-content">
+      <h2>HOW THE MOVEMENT WAS BORN</h2>
+      <p>
+        It began in the quiet corners of old-age homes, during long, unfiltered
+        conversations with elders who had lived full, meaningful lives yet now
+        carried a loneliness that words could barely describe. It emerged in the
+        brief pauses between their stories where pain lived, where memories
+        faded, where emotions remained unspoken.
+      </p>
+      <p>
+        Over months of field visits, home calls, and research across cities,
+        our team met seniors from all backgrounds: some living with family,
+        some living alone, some in care facilities. But the truth remained the
+        same everywhere loneliness is not about being alone; it is about not
+        being seen, not being heard, not being valued.
+      </p>
+      <p>
+        We saw elders who had everything except someone to talk to. We met
+        individuals who waited hours just to share a fivem inute conversation.
+        We listened to stories that were heavy, beautiful, forgotten, and
+        healing stories that reminded us that aging is not the struggle;
+        being emotionally abandoned is.
+      </p>
 
-It began with listening. 
- And through listening, we discovered truth. 
+      <p>
+        This movement was born the day we understood that care is not a service
+        it is a responsibility.
+      </p>
 
-During months of research, interactions, and field visits, our team met elders across different cities and living situations. We observed something universal — despite having homes, families, and basic comfort, many elders carried a silent emotional burden. 
-            </p>
+      <ul>
+        <li>A responsibility to restore dignity.</li>
+        <li>A responsibility to bring back connection.</li>
+        <li>
+          A responsibility to make sure no elder spends their final decades
+          feeling invisible.
+        </li>
+      </ul>
 
-            <button className="team-btn"onClick={() => navigate("/WhatWeOffer")}>Know More</button>
-          </div>
-        </div>
-      </section>
+      <p>
+        TuHiTu Onelife Circle is not just a wellness initiative it is a promise
+        to see, hear, and value every life.
+      </p>
+
+      <button
+        className="team-btn"
+        onClick={() => navigate("/WhatWeOffer")}
+      >
+        Know More
+      </button>
+    </div>
+  </div>
+</section>
 
       <Footer />
     </>

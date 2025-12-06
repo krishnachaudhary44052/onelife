@@ -3,18 +3,31 @@ import '../Styles/OfferingsSection.css';
 const offeringsData = [
   {
     icon: '🧘', 
-    title: 'Customised Packages',
-    description: 'Experience personalised wellness with tailored Ayurvedic treatments. Our experts assess your unique needs to create bespoke therapy plans focusing on your specific health goals.',
+    title: 'Wellness Memberships ',
+    description: 'Structured monthly wellness plans designed to improve your physical, mental, and emotional health. Each membership includes personalized guidance, assessments, and continuous support based on your individual goals',
   },
   {
     icon: '🏞️', 
-    title: 'Rejuvenating Location',
-    description: 'Set in a tranquil, natural environment ideal for rejuvenation and outdoor activities like hiking or trekking. The lush greenery and serene scenery enhance healing and relaxation.',
+    title: 'Lifestyle Transformation Plans',
+    description: `Set in a tranquil, natural environment ideal for rejuvenation and outdoor activities like hiking or trekking. The lush greenery and serene scenery enhance healing and relaxation.
+
+Step-by-step plans to help individuals adopt healthier habits through:
+
+• Diet & nutrition guidance
+• Yoga & movement therapies
+• Detox routines
+• Stress and sleep management`,
   },
   {
     icon: ' 🧘',
-    title: 'Holistic Approaches',
-    description: 'Embrace comprehensive healing with our holistic therapies, integrating traditional Ayurvedic treatments, yoga, and meditation. We focus on nurturing your mind, body, and spirit for complete wellness.',
+    title: 'Community Circles ',
+    description: `
+Join a supportive group of people who share similar goals and challenges. Activities may include: 
+
+• Group wellness sessions 
+• Sharing circles 
+• Expert talks 
+• Monthly meetups `,
   },
 ];
 

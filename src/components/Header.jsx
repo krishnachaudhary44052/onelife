@@ -34,7 +34,7 @@ export default function Header() {
           </li>
 
           <li className={active === "events" ? "active" : ""}>
-            <Link to="/WhoGain" onClick={() => handleClick("events")}>How It Works </Link>
+            <Link to="/WhoGain" onClick={() => handleClick("events")}>Gallery</Link>
           </li>
 
           <li className={active === "press" ? "active" : ""}>

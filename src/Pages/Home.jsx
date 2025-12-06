@@ -89,7 +89,8 @@ export default function Home() {
 
                 <div className="section-text">
                     <p>
-                        “TuHiTu Onelife Circle invites corporations, organizations, and philanthropists to join us in creating meaningful impact. Through CSR initiatives, companies can contribute to elder companionship programs, wellness events, and community engagement, helping us restore dignity, joy, and emotional wellbeing to seniors. Together, we can make loneliness a thing of the past and build a society where every elder feels valued and cared for.”
+                        TuHiTu Onelife Circle welcomes CSR partners who wish to support meaningful community impact. Your contribution can help us provide companionship, wellness support, and care for elders who need it the most. 
+We invite companies and foundations to join hands with us in building a compassionate, healthier society one elder, one family, one life at a time. 
                     </p>
                 </div>
 
