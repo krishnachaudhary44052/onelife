@@ -1,6 +1,8 @@
 import "../Styles/HeroSection.css";
+import { useNavigate } from "react-router-dom";
 
 export default function HeroSection() {
+      const navigate = useNavigate();
   return (
     <section className="HeroSection-container">
       <div className="HeroSection-content">
@@ -10,8 +12,8 @@ export default function HeroSection() {
 </h3>
         <button
   className="HeroSection-button"
-  onClick={() => window.location.href = "/Contact"}
->
+  onClick={() => navigate("/Contact")}
+                    >
   Join The Trail!
 </button>
       </div>
