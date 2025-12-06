@@ -3,12 +3,12 @@ import "../Styles/Gallery.css";
 
 export default function Gallery() {
   const images = [
-    "/Images/img.webp",
-    "/Images/img.webp",
-    "/Images/img.webp",
-    "/Images/img.webp",
-    "/Images/img.webp",
-    "/Images/img.webp",
+    "/Images/IMG_7149.jpg",
+    "/Images/IMG_8986.jpg",
+    "/Images/IMG_8977.jpg",
+    "/Images/IMG_8748.JPG",
+    "/Images/PXL_20250407_074158827.jpg",
+    "/Images/IMG_8669.JPG",
   ];
 
   return (

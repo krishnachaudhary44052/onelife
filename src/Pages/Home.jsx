@@ -3,22 +3,24 @@ import HeroSection from "../components/HeroSection";
 import LeftWindow from "../components/LeftWindow";
 import RightWindow from "../components/RightWindow";
 import ModernSlider from "../components/ModernSlider";
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";
 import Gallery from "../components/Gallery";
 import FAQ from "../components/FAQ";
 import "./Home.css";
-import { FaQ } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+
+    const navigate = useNavigate();
 
     const details = [
         {
             title: "Where Every Moment Feels Special",
             content:
-                "Be it gentle conversations, storytelling, sharing life’s concerns, tea-time biscuits, playing ludo, or simply sitting together we are eager to spend time with you",
-            src: "/Images/PXL_20250407_074127834.jpg"   
-        }
-        , {
+                "Our tuhitu onelife circle is two elders paired with one dedicated Companion creates a balanced, personal, and humane experience. This structure ensures genuine bonding, long-term relationships, and emotional security for each elder",
+            src: "/Images/PXL_20250407_074127834.jpg"
+        },
+        {
             title: "Discover Happiness in Every Shared Step",
             content: "We find joy in every stroll and would love to keep you company. Whether you need someone to walk you to a friend’s house or simply wish for a friendly presence in the park, we’re here for you.",
             src: "/Images/PXL_20250407_073826422.jpg"
@@ -33,7 +35,7 @@ export default function Home() {
             <div className="group">
                 <div className="inner-group">
                     <p>
-                        We are a group of young hearts who simply love our elders. We step into their lives with warmth, listening ears, and gentle care hoping to become the kind of presence a grandchild brings… full of affection, laughter, and the feeling of being truly cherished
+                        We are a community-driven companionship network designed to bring emotional connection, presence, and purpose back into the daily lives of elders. Our initiative connects seniors with trained youth volunteers, Companions who offer support not as caretakers, but as trusted friends who stand beside them.
                     </p>
                 </div>
             </div>
@@ -48,8 +50,8 @@ export default function Home() {
                 title={details[1].title}
                 content={details[1].content}
                 image={details[1].src}
-
             />
+
             <div className="video-wrapper">
                 <h2 className="video-heading">A Little Look at the Joy we Share with our Grandbuddy!</h2>
 
@@ -60,12 +62,16 @@ export default function Home() {
                         controls
                     />
                 </div>
+
                 <div className="buttondiv">
-                    <button className="video-button">View More Events</button>
+                    <button className="video-button" onClick={() => navigate("/WhoGain")}>
+                        View More Events
+                    </button>
                 </div>
             </div>
 
             <ModernSlider />
+
             <div className="video-wrapper">
                 <h2 className="video-heading">Catch the Sparkle of Life with Our Grandbuddy</h2>
 
@@ -79,27 +85,27 @@ export default function Home() {
             </div>
 
             <div className="section-wrapper">
-                <h1 className="section-title">It starts with a conversation…</h1>
+                <h1 className="section-title">Corporate Partnerships & CSR Collaboration</h1>
 
                 <div className="section-text">
                     <p>
-                        If you are a senior citizen or know of an elderly looking for a companion,
-                        click on the button below to get paired with a Goodfellow today!
+                        “TuHiTu Onelife Circle invites corporations, organizations, and philanthropists to join us in creating meaningful impact. Through CSR initiatives, companies can contribute to elder companionship programs, wellness events, and community engagement, helping us restore dignity, joy, and emotional wellbeing to seniors. Together, we can make loneliness a thing of the past and build a society where every elder feels valued and cared for.”
                     </p>
                 </div>
 
                 <div className="section-button-wrap">
-                    <button className="section-button">View More Events</button>
+                    <button
+                        className="section-button"
+                        onClick={() => navigate("/WhoGain")}
+                    >
+                        View More Events
+                    </button>
                 </div>
             </div>
-            <Gallery/>
-            <FAQ/>
+
+            <Gallery />
 
             <Footer />
-
-
-
-
         </>
     );
 }

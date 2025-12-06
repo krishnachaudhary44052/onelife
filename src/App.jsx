@@ -8,6 +8,7 @@ import ComingSoon from './components/ComingSoon';
 import WhatWeOffer from './Pages/WhatWeOffer';
 import HowSeniorsBenefits from './Pages/HowSeniorsBenefits';
 import WhoGain from './Pages/WhoGain';
+import FAQ from './components/FAQ';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ScrollTop from './components/ScrollToTop';
 import { Router } from 'lucide-react';
@@ -25,6 +26,7 @@ function App() {
       <Route path='/coming' element={<ComingSoon/>}/>
        <Route path='/WhatWeOffer' element={<WhatWeOffer/>}/>
         <Route path='/HowSeniorsBenefits' element={<HowSeniorsBenefits/>}/>
+        <Route path='/Faqs' element={<FAQ/>}/>
          <Route path='/WhoGain' element={<WhoGain/>}/>
 
       

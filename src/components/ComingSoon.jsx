@@ -6,7 +6,7 @@ import Footer from "./Footer"
 export default function ComingSoon() {
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     <div className="cs-wrapper">
       <div className="cs-card">
         <div className="cs-glow"></div>
@@ -23,7 +23,7 @@ export default function ComingSoon() {
         </div>
       </div>
     </div>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   );
 }

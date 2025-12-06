@@ -15,7 +15,7 @@ export default function Footer() {
 
       <div className="footer-content">
         <div className="footer-logo">
-          <img src="/Images/2.png" alt="logo" />
+          <img src="/Images/logo.png" alt="logo" />
         </div>
 
         <div className="footer-contact">
@@ -38,15 +38,15 @@ export default function Footer() {
 
         <div className="footer-links">
           <a href="/">Home</a>
-          <a href="/about">About Us</a>
-          <a href="/services">Services</a>
-          <a href="/events">Events</a>
+          <a href="/about">who we are</a>
+          <a href="/services">Program Pillars</a>
+          <a href="/events">How It Works </a>
         </div>
 
         <div className="footer-links">
-          <a href="/press">Press</a>
+          <a href="/press">Membership & Pricing </a>
           <a href="/faqs">FAQs</a>
-          <a href="/careers">Careers</a>
+          {/* <a href="/careers">Careers</a> */}
           <a href="/contact">Contact Us</a>
         </div>
       </div>

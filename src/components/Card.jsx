@@ -11,9 +11,9 @@ const Card = ({ img, title, desc, bgColor, textColor }) => {
         <h3 className="card-title">{title}</h3>
         <p className="card-desc">{desc}</p>
 
-        <button className="card-btn">
+        {/* <button className="card-btn">
           Know more <ArrowRight size={18} />
-        </button>
+        </button> */}
       </div>
     </div>
   );

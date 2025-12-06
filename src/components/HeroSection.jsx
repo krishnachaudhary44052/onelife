@@ -5,11 +5,15 @@ export default function HeroSection() {
     <section className="HeroSection-container">
       <div className="HeroSection-content">
         <h1>TuHiTu OneLife</h1>
-        <h3>Because Parents Deserve a Life as Beautiful as the One They Gave Us.</h3>
-        <h3>Companionship That Feels Like Family
-Compassionate, lively youth creating meaningful moments for elders
+        <h3>One Life. One Circle. A Community Built on Human Connection. </h3>
+        <h3>Aging is meant to be a peaceful chapter of life, yet for countless elders, it quietly becomes a chapter of isolation. As the world around them races forward, their days grow quieter, phone calls become shorter, and conversations become rare. Despite living in the same homes, many elders feel distant from the people they love the most.
 </h3>
-        <button className="HeroSection-button">Join The Trail!</button>
+        <button
+  className="HeroSection-button"
+  onClick={() => window.location.href = "/Contact"}
+>
+  Join The Trail!
+</button>
       </div>
 
       <div className="HeroSection-image">

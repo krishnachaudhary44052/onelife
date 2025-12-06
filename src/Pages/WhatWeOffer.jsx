@@ -1,38 +1,49 @@
 import Header from "../components/Header";
+import SaladHeroSection from "../components/SaladAboutUs";
 import Footer from "../components/Footer";
 import LeftWindow from "../components/LeftWindow";
 import RightWindow from "../components/RightWindow";
-export default function WhatWeOffer() {
 
-    const details = [
-        {
-            title: "Discover the joy of Quality time",
-            content:
-                "Be it nothing but chitchat, reminiscing stories, sharing troubles, or biscuits and tea, playing carrom together or simply watching TV, our Goodfellows are eager to lend a listening ear.",
-            src: "/Images/3.png"
-        }
-        , {
-            title: "Second section title",
-            content: "Your Goodfellow will sit down for as long as you need to explain the basics of smartphones and gadgets, social media lingo and online deliveries. You name it, we teach it!",
-            src: "/Images/3.png"
-        }
-    ];
+export default function WhatWeOffer() {
+    
+;
+
 
     return (
         <>
             <Header />
-            <LeftWindow
-                title={details[0].title}
-                content={details[0].content}
-                image={details[0].src}
-            />
+            <SaladHeroSection title="About Us" visual={true} />
+            <div className="video-wrapper">
+                <h2 className="video-heading">When you hear the same pain from many voices</h2>
 
-            <RightWindow
-                title={details[1].title}
-                content={details[1].content}
-                image={details[1].src}
+                <div className="video-container">
+                    <video
+                        className="main-video"
+                        src="/videos/whtv.mp4"
+                        controls
+                    />
+                </div>
+                <div className="buttondiv">
+                    {/* <button className="video-button">View More Events</button> */}
+                </div>
+            </div>
+            <div className="video-wrapper">
+                <h2 className="video-heading">Different faces, different backgrounds</h2>
 
-            />
+                <div className="video-container">
+                    <video
+                        className="main-video"
+                        src="/videos/whtv1.mp4"
+                        controls
+                    />
+                </div>
+                <div className="buttondiv">
+                    {/* <button className="video-button">View More Events</button> */}
+                </div>
+            </div>
+
+
+
             <Footer />
         </>
     )

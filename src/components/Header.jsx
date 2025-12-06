@@ -26,19 +26,23 @@ export default function Header() {
           </li>
 
           <li className={active === "about" ? "active" : ""}>
-            <Link to="/About" onClick={() => handleClick("about")}>About</Link>
+            <Link to="/About" onClick={() => handleClick("about")}>who we are</Link>
           </li>
 
           <li className={active === "service" ? "active" : ""}>
-            <Link to="/WhatWeOffer" onClick={() => handleClick("service")}>What we Offer</Link>
+            <Link to="/WhatWeOffer" onClick={() => handleClick("service")}>Program Pillars</Link>
           </li>
 
           <li className={active === "events" ? "active" : ""}>
-            <Link to="/WhoGain" onClick={() => handleClick("events")}>What you gain</Link>
+            <Link to="/WhoGain" onClick={() => handleClick("events")}>How It Works </Link>
           </li>
 
           <li className={active === "press" ? "active" : ""}>
-            <Link to="/HowSeniorsBenefits" onClick={() => handleClick("press")}>How Seniors Benefits</Link>
+            <Link to="/HowSeniorsBenefits" onClick={() => handleClick("press")}>Membership & Pricing </Link>
+          </li>
+
+          <li className={active === "FAQ" ? "active" : ""}>
+            <Link to="/Faqs" onClick={() => handleClick("FAQ")}>FAQs </Link>
           </li>
 
           <li className={active === "contact" ? "active" : ""}>
