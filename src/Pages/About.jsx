@@ -8,13 +8,13 @@ export default function About() {
   const navigate = useNavigate();
   const content = {
     title: "Tuhitu One Life Circle: A Community Rooted in Compassion ",
-    image: "/Images/unnamed (9).png",
+    image: "/Images/IMG_9637.jpg",
     paragraphs: ["Tuhitu One Life Circle is a community-driven initiative created to restore companionship, dignity, and emotional wellbeing in the lives of elders. We operate across Delhi, NCR, Gurugram, and Noida, with active expansion toward Panchkula, Mohali, and Chandigarh. "],
   };
 
   const content1 = {
     title: " Human connection is the deepest form of care",
-    image: "/Images/unnamed (1).png",
+    image: "/Images/IMG_9640.jpg",
     paragraphs: [
       "In a world where time moves quickly and conversations grow shorter, elders often find themselves living among people, yet feeling emotionally alone. Tuhitu One Life Circle exists to bridge this gap with genuine companionship, meaningful interactions, and a compassionate presence in their everyday life. ",
     ],
@@ -81,7 +81,7 @@ export default function About() {
       <section className="team-section fade-up">
   <div className="team-grid">
     <img
-      src="/Images/unnamed (11).png"
+      src="/Images/IMG_9109.jpg"
       className="team-photo"
       alt="team"
     />

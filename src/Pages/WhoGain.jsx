@@ -5,19 +5,19 @@ import RightWindow from "../components/RightWindow";
 import Gallery from "../components/Gallery";
 export default function WhoGain() {
 
-    const details = [
-        {
-            title: "Discover the joy of Quality time",
-            content:
-                "Be it nothing but chitchat, reminiscing stories, sharing troubles, or biscuits and tea, playing carrom together or simply watching TV, our Goodfellows are eager to lend a listening ear.",
-            src: "/Images/3.png"
-        }
-        , {
-            title: "HOW TUHITU ONELIFE CIRCLE WORKS ",
-            content: "A transformative wellness experience should feel simple, structured, and effortless. Tuhitu Onelife Circle offers a clear path that guides every individual from their first consultation to sustained long-term wellbeing ",
-            src: "/Images/unnamed (1).png"
-        }
-    ];
+    // const details = [
+    //     {
+    //         title: "Discover the joy of Quality time",
+    //         content:
+    //             "Be it nothing but chitchat, reminiscing stories, sharing troubles, or biscuits and tea, playing carrom together or simply watching TV, our Goodfellows are eager to lend a listening ear.",
+    //         src: "/Images/3.png"
+    //     }
+    //     , {
+    //         title: "HOW TUHITU ONELIFE CIRCLE WORKS ",
+    //         content: "A transformative wellness experience should feel simple, structured, and effortless. Tuhitu Onelife Circle offers a clear path that guides every individual from their first consultation to sustained long-term wellbeing ",
+    //         src: "/Images/unnamed (1).png"
+    //     }
+    // ];
 
     return (
         <>
@@ -28,12 +28,12 @@ export default function WhoGain() {
                 image={details[0].src}
             /> */}
 
-            <RightWindow
+            {/* <RightWindow
                 title={details[1].title}
                 content={details[1].content}
                 image={details[1].src}
 
-            />
+            /> */}
             <Gallery/>
             <div className="video-wrapper">
                 <h2 className="video-heading">EVERY LIFE Deserves A CIRCLE THAT HOLDS IT GENTLY</h2>
